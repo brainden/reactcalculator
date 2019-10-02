@@ -11,6 +11,9 @@ class Button extends Component {
 				className={`button ${
 					this.isOperator(this.props.children) ? "" : "operator"
 				}`}
+				onClick={() => {
+					this.props.handleClick(this.props.children);
+				}}
 			>
 				{this.props.children}
 			</div>
