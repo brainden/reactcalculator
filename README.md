@@ -4,7 +4,7 @@ A basic react application used to render a calculator with all its functionality
 
 ## Instalation
 
-Git Clone
+Git Clone, cd into reactcalculator folder
 
 &
 
